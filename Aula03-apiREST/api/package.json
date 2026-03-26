@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API rest para uma loja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "loja"
+  ],
+  "author": "Pedro Guterres Jaeger Livi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "knex": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
