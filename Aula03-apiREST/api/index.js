@@ -5,6 +5,18 @@ const errors = require("http-errors")
 
 const app = express()
 
+// Adicionada bibliotena CORS
+const cors = require("cors")
+
+app.use( cors() )
+
+// app.use( cors({
+//     origin : "http://localhost:8080" ,
+//     methods : [ 'PUT', 'DELETE' ] ,
+//     allowedHeaders : [ 'Content-type' , 'Authorization' ] ,
+//     credentials : true
+// }) )
+
 app.use( express.json() )
 app.use( express.urlencoded( {extended : true} ) )
 

@@ -14,6 +14,7 @@
   "author": "Pedro Guterres Jaeger Livi",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "http-errors": "^2.0.1",
     "knex": "^3.1.0",
